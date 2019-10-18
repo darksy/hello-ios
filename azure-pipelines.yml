@@ -6,7 +6,7 @@ steps:
   displayName: 'Build the app using Xcode'
   inputs:
     actions: 'clean build analyze archive'
-    xcodeVersion: 10
+    xcodeVersion: 9
     sdk: 'iphoneos'
     scheme: 'HelloiOS'
     configuration: 'Debug'
